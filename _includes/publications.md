@@ -29,15 +29,9 @@
 
 <div class="title">
 
-{% if link.paper %}
-<a href="{{ link.paper }}" target="_blank" rel="noopener">{{ link.title }}</a>
-{% elsif link.arxiv %}
-<a href="{{ link.arxiv }}" target="_blank" rel="noopener">{{ link.title }}</a>
-{% elsif link.pdf %}
-<a href="{{ link.pdf }}" target="_blank" rel="noopener">{{ link.title }}</a>
-{% else %}
+<span style="color:var(--global-theme-color);">
 {{ link.title }}
-{% endif %}
+</span>
 
 {% if link.conference_short %}
 <abbr
@@ -163,8 +157,8 @@ style="font-size:12px;"
 {% if link.teaser %}
 <div
 style="
-margin-top:10px;
-margin-bottom:5px;
+margin-top:8px;
+margin-bottom:3px;
 width:100%;
 "
 >
@@ -174,10 +168,10 @@ alt="Teaser figure for {{ link.title }}"
 style="
 display:block;
 width:auto;
-max-width:460px;
-max-height:180px;
+max-width:320px;
+max-height:120px;
 object-fit:contain;
-border-radius:4px;
+border-radius:3px;
 "
 >
 </div>
