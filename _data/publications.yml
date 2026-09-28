@@ -1,21 +1,18 @@
 under_review:
   - title: Superposed Latent Autoencoder
     authors: <strong>Quanling Zhao</strong>, Jiaying Yang, Tianqi Zhang, Ziyang Hao, Fatemeh Asgarinejad, Flavio Ponzina, Tajana Rosing
-    conference_short: ICLR
     conference: Submitted to <strong>ICLR 2027</strong>.
     pdf: https://arxiv.org/abs/2609.01158
     teaser: /assets/img/teasers/slae.jpg
 
   - title: "RGLD: Randomized Global-Local Density Estimation for Tabular Anomaly Detection"
     authors: <strong>Quanling Zhao</strong>, Jiaying Yang, Ye Tian, Josh Victoria, Zhijun Wang, Pietro Mercati, Onat Gungor, Tajana Rosing
-    conference_short: ICLR
     conference: Submitted to <strong>ICLR 2027</strong>.
     pdf: https://arxiv.org/abs/2606.28970
     teaser: /assets/img/teasers/rgld.jpg
 
   - title: Superposed Inference for Hyperdimensional Computing
     authors: <strong>Quanling Zhao</strong>, Nilesh Prasad Pandey, Ye Tian, Tajana Rosing
-    conference_short: ICLR
     conference: Submitted to <strong>ICLR 2027</strong>.
     teaser: /assets/img/teasers/suphdc.jpg
 
