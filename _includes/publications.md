@@ -18,23 +18,107 @@
           {% if link.image %}
           <div class="col-sm-3 abbr" style="position:relative;padding-right:15px;padding-left:15px;">
             <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width:100%;">
-            {% if link.conference_short %}<abbr class="badge">{{ link.conference_short }}</abbr>{% endif %}
+            {% if link.conference_short %}
+              <abbr class="badge">{{ link.conference_short }}</abbr>
+            {% endif %}
           </div>
           <div class="col-sm-9" style="position:relative;padding-right:15px;padding-left:20px;">
           {% else %}
           <div style="width:100%;padding:0 2px;">
           {% endif %}
+
             <div class="title">
-              {% if link.pdf %}<a href="{{ link.pdf }}" target="_blank" rel="noopener">{{ link.title }}</a>{% else %}{{ link.title }}{% endif %}
-              {% if link.conference_short %}<abbr class="badge" style="margin-left:6px;">{{ link.conference_short }}</abbr>{% endif %}
+              {% if link.pdf %}
+                <a href="{{ link.pdf }}" target="_blank" rel="noopener">{{ link.title }}</a>
+              {% else %}
+                {{ link.title }}
+              {% endif %}
+
+              {% if link.conference_short %}
+                <abbr class="badge" style="margin-left:6px;">{{ link.conference_short }}</abbr>
+              {% endif %}
             </div>
+
             <div class="author">{{ link.authors }}</div>
             <div class="periodical"><em>{{ link.conference }}</em></div>
+
             <div class="links">
-              {% if link.pdf %}<a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px;">Paper</a>{% endif %}
-              {% if link.code %}<a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px;">Code</a>{% endif %}
-              {% if link.page %}<a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px;">Project Page</a>{% endif %}
-              {% if link.notes %}<strong><i style="color:#e74d3c">{{ link.notes }}</i></strong>{% endif %}
+
+              {% if link.pdf %}
+                {% assign paper_label = "Paper" %}
+                {% if link.pdf contains "arxiv.org" %}
+                  {% assign paper_label = "arXiv" %}
+                {% endif %}
+
+                <a href="{{ link.pdf }}"
+                   class="btn btn-sm z-depth-0"
+                   role="button"
+                   target="_blank"
+                   rel="noopener"
+                   style="font-size:12px;">
+                  {{ paper_label }}
+                </a>
+              {% endif %}
+
+              {% if link.code %}
+                <a href="{{ link.code }}"
+                   class="btn btn-sm z-depth-0"
+                   role="button"
+                   target="_blank"
+                   rel="noopener"
+                   style="font-size:12px;">
+                  Code
+                </a>
+              {% endif %}
+
+              {% if link.poster %}
+                <a href="{{ link.poster }}"
+                   class="btn btn-sm z-depth-0"
+                   role="button"
+                   target="_blank"
+                   rel="noopener"
+                   style="font-size:12px;">
+                  Poster
+                </a>
+              {% endif %}
+
+              {% if link.video %}
+                <a href="{{ link.video }}"
+                   class="btn btn-sm z-depth-0"
+                   role="button"
+                   target="_blank"
+                   rel="noopener"
+                   style="font-size:12px;">
+                  Video
+                </a>
+              {% endif %}
+
+              {% if link.slides %}
+                <a href="{{ link.slides }}"
+                   class="btn btn-sm z-depth-0"
+                   role="button"
+                   target="_blank"
+                   rel="noopener"
+                   style="font-size:12px;">
+                  Slides
+                </a>
+              {% endif %}
+
+              {% if link.page %}
+                <a href="{{ link.page }}"
+                   class="btn btn-sm z-depth-0"
+                   role="button"
+                   target="_blank"
+                   rel="noopener"
+                   style="font-size:12px;">
+                  Project Page
+                </a>
+              {% endif %}
+
+              {% if link.notes %}
+                <strong><i style="color:#e74d3c">{{ link.notes }}</i></strong>
+              {% endif %}
+
             </div>
           </div>
         </div>
