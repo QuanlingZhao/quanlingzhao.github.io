@@ -52,7 +52,7 @@ I am a Ph.D. student in Computer Science at the **University of California San D
 
 - **Paper Reading Notes** — I participate in our lab's paper reading group, you can explore a repository of all the papers we have reviewed [here](https://github.com/UCSD-SEELab/iot-hd-reading-group).
 
-- **Photography** — A small collection of photographs I have taken.  
+- **Photography** — I shot color reversal films(mainly Velvia and Provia) and digital. A small collection of photographs I have taken.  
   [View photos →](/photography/)
 
 
