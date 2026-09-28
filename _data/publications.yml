@@ -4,17 +4,21 @@ under_review:
     conference_short: ICLR
     conference: Submitted to <strong>ICLR 2027</strong>.
     pdf: https://arxiv.org/abs/2609.01158
+    teaser: /assets/img/teasers/slae.jpg
 
   - title: "RGLD: Randomized Global-Local Density Estimation for Tabular Anomaly Detection"
     authors: <strong>Quanling Zhao</strong>, Jiaying Yang, Ye Tian, Josh Victoria, Zhijun Wang, Pietro Mercati, Onat Gungor, Tajana Rosing
     conference_short: ICLR
     conference: Submitted to <strong>ICLR 2027</strong>.
     pdf: https://arxiv.org/abs/2606.28970
+    teaser: /assets/img/teasers/rgld.jpg
 
   - title: Superposed Inference for Hyperdimensional Computing
     authors: <strong>Quanling Zhao</strong>, Nilesh Prasad Pandey, Ye Tian, Tajana Rosing
     conference_short: ICLR
     conference: Submitted to <strong>ICLR 2027</strong>.
+    teaser: /assets/img/teasers/suphdc.jpg
+
 
 peer_reviewed:
   - title: Online Open-World Wafer Defect Discovery using Hyperdimensional Computing
@@ -22,24 +26,28 @@ peer_reviewed:
     conference_short: ASP-DAC
     conference: Asia and South Pacific Design Automation Conference <strong>(ASP-DAC)</strong>, 2027.
     pdf: https://doi.org/10.1145/3840404.3848291
+    teaser: /assets/img/teasers/waferhdc.jpg
 
   - title: "AgentKVShift: Efficient KV Cache Reuse for Agentic Memory Systems"
     authors: Nilesh Prasad Pandey, Jason Kong, Lanxiang Hu, <strong>Quanling Zhao</strong>, Yujie Zhao, Onat Gungor, Hao Zhang, Tajana Rosing
     conference_short: NeurIPS
     conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2026.
     pdf: https://arxiv.org/abs/2607.21604
+    teaser: /assets/img/teasers/agentkvshift.jpg
 
   - title: "FeUHD: Unsupervised Federated Learning using Hyperdimensional Computing"
     authors: You Hak Lee, Keming Fan, Xiaofan Yu, <strong>Quanling Zhao</strong>, Flavio Ponzina, Tajana Rosing
     conference_short: TCASAI
     conference: IEEE Transactions on Circuits and Systems for Artificial Intelligence <strong>(TCASAI)</strong>, 2026.
     pdf: https://ieeexplore.ieee.org/document/11665527
+    teaser: /assets/img/teasers/feduhd.jpg
 
   - title: "HDDB: Efficient In-Storage SQL Database Search Using Hyperdimensional Computing on Ferroelectric NAND Flash"
     authors: <strong>Quanling Zhao*</strong>, Yanru Chen*, Runyang Tian, Sumukh Pinge, Weihong Xu, Augusto Vega, Steven Holmes, Saransh Gupta, Tajana Rosing
     conference_short: DAC
     conference: Design Automation Conference <strong>(DAC)</strong>, 2026.
     pdf: https://arxiv.org/abs/2511.18234
+    teaser: /assets/img/teasers/hddb.jpg
     notes: "* Equal contribution"
 
   - title: Offload Rethinking by Cloud Assistance for Efficient Environmental Sound Recognition on LPWANs
@@ -47,6 +55,7 @@ peer_reviewed:
     conference_short: SenSys
     conference: ACM Conference on Embedded Networked Sensor Systems <strong>(SenSys)</strong>, 2025.
     pdf: https://dl.acm.org/doi/10.1145/3715014.3722078
+    teaser: /assets/img/teasers/orca.jpg
     notes: "* Equal contribution"
 
   - title: Bridging the Gap between Hyperdimensional Computing and Kernel Methods via the Nyström Method
@@ -55,15 +64,28 @@ peer_reviewed:
     conference: AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2025.
     pdf: https://ojs.aaai.org/index.php/AAAI/article/view/34442
     code: https://github.com/QuanlingZhao/NysHD
+    teaser: /assets/img/teasers/nyshd.jpg
 
   - title: "MultimodalHD: Federated Learning Over Heterogeneous Sensor Modalities using Hyperdimensional Computing"
     authors: <strong>Quanling Zhao</strong>, Xiaofan Yu, Shengfan Hu, Tajana Rosing
     conference_short: DATE
     conference: Design, Automation, and Test in Europe <strong>(DATE)</strong>, 2024.
     pdf: https://ieeexplore.ieee.org/document/10546794
+    teaser: /assets/img/teasers/multimodalhd.jpg
 
   - title: "Async-HFL: Efficient and Robust Asynchronous Federated Learning in Hierarchical IoT Networks"
     authors: Xiaofan Yu, Ludmila Cherkasova, Harsh Vardhan, <strong>Quanling Zhao</strong>, Emily Ekaireb, Xiyuan Zhang, Arya Mazumdar, Tajana Rosing
     conference_short: IoTDI
     conference: ACM/IEEE Conference on Internet of Things Design and Implementation <strong>(IoTDI)</strong>, 2023.
     pdf: https://dl.acm.org/doi/10.1145/3576842.3582377
+    teaser: /assets/img/teasers/asynchfl.jpg
+
+
+
+
+
+
+
+
+
+    
