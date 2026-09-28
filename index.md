@@ -26,11 +26,10 @@ I am a Ph.D. student in Computer Science at the **University of California San D
 
 1. **Connecting Kernel Methods and Hyperdimensional Computing for Capable and Efficient Learning**  
    *CoCoSys Center Seminar — July 2026*
-   [Slides](/assets/slides/Cocoys_Talk_July_26.pdf)
+   [[Slides](/assets/slides/Cocoys_Talk_July_26.pdf)]
 
 2. **Towards Generalized Learning in Hyperdimensional Computing: Density Estimation and Hybrid Models**  
    *CoCoSys Center Seminar — July 2025*
-   [Slides](/assets/slides/Cocoys_Talk_July_25.pdf)
-
+   [[Slides](/assets/slides/Cocoys_Talk_July_25.pdf)]
 
    
