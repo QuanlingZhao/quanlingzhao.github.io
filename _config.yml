@@ -1,0 +1,40 @@
+# Quanling Zhao academic homepage — Minimal Light
+
+# Basic information
+title: Quanling Zhao
+position: Ph.D. Student in Computer Science
+affiliation: University of California San Diego
+affiliation_link: https://cse.ucsd.edu/
+email: quzhao@ucsd.edu
+
+# Search engine optimization
+keywords: Quanling Zhao, machine learning, efficient AI, LLM inference, VLM, hyperdimensional computing, vector symbolic architectures, kernel methods, anomaly detection
+summary: Research homepage of Quanling Zhao, a Computer Science Ph.D. student at UC San Diego working on efficient and theoretically grounded machine learning.
+description: Research homepage of Quanling Zhao, a Computer Science Ph.D. student at UC San Diego working on efficient and theoretically grounded machine learning, efficient LLM/VLM inference, randomized and kernel methods, and hyperdimensional computing.
+canonical: https://quanlingzhao.github.io/
+
+# Links
+google_scholar: https://scholar.google.com/citations?user=kQwj7xQAAAAJ
+cv_link: assets/files/CV_Quanling_Zhao.pdf
+github_link: https://github.com/QuanlingZhao
+linkedin: https://www.linkedin.com/in/quanling-zhao-44a0272b7/
+
+# Add a profile photo later by uncommenting this line.
+# avatar: ./assets/img/avatar.jpg
+
+# Favicons
+favicon: ./assets/img/favicon.png
+favicon_dark: ./assets/img/favicon-dark.png
+
+# Theme options
+enable_footnote: true
+auto_dark_mode: true
+font: "Sans Serif"
+
+# Actual Minimal Light theme
+remote_theme: yaoyao-liu/minimal-light
+
+exclude:
+  - README.md
+  - DEPLOYMENT.md
+  - LICENSE
