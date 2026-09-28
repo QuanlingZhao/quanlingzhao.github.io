@@ -18,7 +18,7 @@ I am a Ph.D. student in Computer Science at the **University of California San D
 
 - **[2026]** *AgentKVShift* accepted to NeurIPS 2026.
 - **[2026]** *HDDB* appeared at DAC 2026.
-- **[2025]** *NysHD* appeared at AAAI 2026.
+- **[2025]** *NysHD* appeared at AAAI 2025.
   
 {% include_relative _includes/publications.md %}
 
