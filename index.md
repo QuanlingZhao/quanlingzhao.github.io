@@ -32,4 +32,20 @@ I am a Ph.D. student in Computer Science at the **University of California San D
    *CoCoSys Center Seminar — July 2025*
    [[Slides](/assets/slides/Cocoys_Talk_July_25.pdf)]
 
+
+
+
+## Service
+
+**Program Committee:** AAAI 2026, AAAI 2027
+
+**Conference Reviewer:** ICLR 2027, NeurIPS 2026, ICML 2026, RAAAI@NeurIPS 2026, IJCNN 2025, MLNCP@NeurIPS 2024
+
+**Journal Reviewer:** IEEE/ACM Transactions on Networking, IEEE Access, IEEE Transactions on Cognitive Communications and Networking, IEEE Transactions on Emerging Topics in Computing, IEEE Transactions on Neural Networks and Learning Systems, IEEE Journal of Biomedical and Health Informatics
+
+
+
+
+
+
    
