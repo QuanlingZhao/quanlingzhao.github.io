@@ -1,6 +1,7 @@
 <h2 id="publications" style="margin: 2px 0px 2px;">Publications</h2>
 
 {% assign groups = "under_review,peer_reviewed,workshops" | split: "," %}
+
 {% for group in groups %}
 {% assign papers = site.data.publications[group] %}
 
@@ -23,51 +24,21 @@
 {% for link in papers %}
 
 <li>
-<div class="pub-row">
-
-{% if link.image %}
-
-<div class="col-sm-3 abbr" style="position:relative;padding-right:15px;padding-left:15px;">
-
-<img
-src="{{ link.image }}"
-class="teaser img-fluid z-depth-1"
-style="width:100%;"
-alt="{{ link.title }}"
->
-
-{% if link.conference_short %}
-<abbr class="badge">{{ link.conference_short }}</abbr>
-{% endif %}
-
-</div>
-
-<div class="col-sm-9" style="position:relative;padding-right:15px;padding-left:20px;">
-
-{% else %}
 
 <div style="width:100%;padding:0 2px;">
-
-{% endif %}
-
 
 <div class="title">
 
 {% if link.paper %}
 <a href="{{ link.paper }}" target="_blank" rel="noopener">{{ link.title }}</a>
-
 {% elsif link.arxiv %}
 <a href="{{ link.arxiv }}" target="_blank" rel="noopener">{{ link.title }}</a>
-
 {% elsif link.pdf %}
 <a href="{{ link.pdf }}" target="_blank" rel="noopener">{{ link.title }}</a>
-
 {% else %}
 {{ link.title }}
 {% endif %}
 
-
-{% unless link.image %}
 {% if link.conference_short %}
 <abbr
 class="badge"
@@ -76,7 +47,6 @@ style="margin-left:6px;background-color:var(--global-theme-color);color:white !i
 {{ link.conference_short }}
 </abbr>
 {% endif %}
-{% endunless %}
 
 </div>
 
@@ -182,14 +152,40 @@ style="font-size:12px;"
 {% endif %}
 
 {% if link.notes %}
-<strong><i style="color:#e74d3c;">{{ link.notes }}</i></strong>
+<strong>
+<i style="color:#e74d3c;">{{ link.notes }}</i>
+</strong>
 {% endif %}
 
 </div>
 
+
+{% if link.teaser %}
+<div
+style="
+margin-top:10px;
+margin-bottom:5px;
+width:100%;
+"
+>
+<img
+src="{{ link.teaser }}"
+alt="Teaser figure for {{ link.title }}"
+style="
+display:block;
+width:auto;
+max-width:460px;
+max-height:180px;
+object-fit:contain;
+border-radius:4px;
+"
+>
 </div>
+{% endif %}
+
 
 </div>
+
 </li>
 
 <br>
