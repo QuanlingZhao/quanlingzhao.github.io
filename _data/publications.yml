@@ -24,6 +24,14 @@ peer_reviewed:
     conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2026.
     arxiv: https://arxiv.org/abs/2607.21604
     teaser: /assets/img/teasers/agentkvshift.jpg
+
+  - title: "HDDB: Efficient In-Storage SQL Database Search Using Hyperdimensional Computing on Ferroelectric NAND Flash"
+    authors: <strong>Quanling Zhao*</strong>, Yanru Chen*, Runyang Tian, Sumukh Pinge, Weihong Xu, Augusto Vega, Steven Holmes, Saransh Gupta, Tajana Rosing
+    conference_short: DAC
+    conference: Design Automation Conference <strong>(DAC)</strong>, 2026.
+    arxiv: https://arxiv.org/abs/2511.18234
+    teaser: /assets/img/teasers/hddb.jpg
+    notes: "* Equal contribution"
     
   - title: Online Open-World Wafer Defect Discovery using Hyperdimensional Computing
     authors: <strong>Quanling Zhao</strong>, Ava Emami, Tsuyoshi Ide, Rajiv Joshi, Steve Holmes, Michael Passow, Tajana Rosing
@@ -39,13 +47,14 @@ peer_reviewed:
     arxiv: https://arxiv.org/abs/2508.12021
     teaser: /assets/img/teasers/feduhd.jpg
 
-  - title: "HDDB: Efficient In-Storage SQL Database Search Using Hyperdimensional Computing on Ferroelectric NAND Flash"
-    authors: <strong>Quanling Zhao*</strong>, Yanru Chen*, Runyang Tian, Sumukh Pinge, Weihong Xu, Augusto Vega, Steven Holmes, Saransh Gupta, Tajana Rosing
-    conference_short: DAC
-    conference: Design Automation Conference <strong>(DAC)</strong>, 2026.
-    arxiv: https://arxiv.org/abs/2511.18234
-    teaser: /assets/img/teasers/hddb.jpg
-    notes: "* Equal contribution"
+  - title: Bridging the Gap between Hyperdimensional Computing and Kernel Methods via the Nyström Method
+    authors: <strong>Quanling Zhao</strong>, Anthony Thomas, Ari Brin, Xiaofan Yu, Tajana Rosing
+    conference_short: AAAI
+    conference: AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2025.
+    paper: https://ojs.aaai.org/index.php/AAAI/article/view/34442
+    arxiv: https://arxiv.org/abs/2608.06860
+    code: https://github.com/QuanlingZhao/NysHD
+    teaser: /assets/img/teasers/nyshd.jpg
 
   - title: Offload Rethinking by Cloud Assistance for Efficient Environmental Sound Recognition on LPWANs
     authors: Le Zhang*, <strong>Quanling Zhao*</strong>, Run Wang, Shirley Bian, Onat Gungor, Flavio Ponzina, Tajana Rosing
@@ -55,15 +64,6 @@ peer_reviewed:
     arxiv: https://arxiv.org/abs/2502.15285
     teaser: /assets/img/teasers/orca.jpg
     notes: "* Equal contribution"
-
-  - title: Bridging the Gap between Hyperdimensional Computing and Kernel Methods via the Nyström Method
-    authors: <strong>Quanling Zhao</strong>, Anthony Thomas, Ari Brin, Xiaofan Yu, Tajana Rosing
-    conference_short: AAAI
-    conference: AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2025.
-    paper: https://ojs.aaai.org/index.php/AAAI/article/view/34442
-    arxiv: https://arxiv.org/abs/2608.06860
-    code: https://github.com/QuanlingZhao/NysHD
-    teaser: /assets/img/teasers/nyshd.jpg
 
   - title: "MultimodalHD: Federated Learning Over Heterogeneous Sensor Modalities using Hyperdimensional Computing"
     authors: <strong>Quanling Zhao</strong>, Xiaofan Yu, Shengfan Hu, Tajana Rosing
