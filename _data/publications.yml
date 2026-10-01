@@ -31,6 +31,7 @@ peer_reviewed:
     conference_short: DAC
     conference: Design Automation Conference <strong>(DAC)</strong>, 2026.
     arxiv: https://arxiv.org/abs/2511.18234
+    code: https://github.com/QuanlingZhao/DAC-26-HDDB-Efficient-In-Storage-SQL-Database-Search-Using-Hyperdimensional-Computing-on-FeNAND
     teaser: /assets/img/teasers/hddb.jpg
     notes: "* Equal contribution"
     
@@ -38,6 +39,7 @@ peer_reviewed:
     authors: <strong>Quanling Zhao</strong>, Ava Emami, Tsuyoshi Ide, Rajiv Joshi, Steve Holmes, Michael Passow, Tajana Rosing
     conference_short: ASP-DAC
     conference: Asia and South Pacific Design Automation Conference <strong>(ASP-DAC)</strong>, 2027.
+    code: https://github.com/QuanlingZhao/ASP-DAC-27-Online-Open-World-Wafer-Defect-Discovery-using-Hyperdimensional-Computing/tree/main
     teaser: /assets/img/teasers/waferhdc.jpg
 
   - title: "FeUHD: Unsupervised Federated Learning using Hyperdimensional Computing"
@@ -54,7 +56,7 @@ peer_reviewed:
     conference: AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2025.
     paper: https://ojs.aaai.org/index.php/AAAI/article/view/34442
     arxiv: https://arxiv.org/abs/2608.06860
-    code: https://github.com/QuanlingZhao/NysHD
+    code: https://github.com/QuanlingZhao/AAAI-25-Bridging-the-Gap-Between-HDC-and-Kernel-Methods-via-the-Nystrom-Method
     teaser: /assets/img/teasers/nyshd.jpg
 
   - title: Offload Rethinking by Cloud Assistance for Efficient Environmental Sound Recognition on LPWANs
@@ -63,6 +65,7 @@ peer_reviewed:
     conference: ACM Conference on Embedded Networked Sensor Systems <strong>(SenSys)</strong>, 2025.
     paper: https://dl.acm.org/doi/10.1145/3715014.3722078
     arxiv: https://arxiv.org/abs/2502.15285
+    code: https://github.com/lezhangleonard/ORCA
     teaser: /assets/img/teasers/orca.jpg
     notes: "* Equal contribution"
 
@@ -71,7 +74,7 @@ peer_reviewed:
     conference_short: DATE
     conference: Design, Automation, and Test in Europe <strong>(DATE)</strong>, 2024.
     paper: https://ieeexplore.ieee.org/document/10546794
-    code: https://github.com/QuanlingZhao/DATE-24-MultimodalHD
+    code: https://github.com/QuanlingZhao/DATE-24-MultimodalHD-Federated-Learning-Over-Heterogeneous-Sensor-Modalities-using-HDC/tree/main
     teaser: /assets/img/teasers/multimodalhd.jpg
 
   - title: "Async-HFL: Efficient and Robust Asynchronous Federated Learning in Hierarchical IoT Networks"
@@ -80,6 +83,7 @@ peer_reviewed:
     conference: ACM/IEEE Conference on Internet of Things Design and Implementation <strong>(IoTDI)</strong>, 2023.
     paper: https://dl.acm.org/doi/10.1145/3576842.3582377
     arxiv: https://arxiv.org/abs/2301.06646
+    code: https://github.com/Orienfish/Async-HFL
     teaser: /assets/img/teasers/asynchfl.jpg
 
 
