@@ -30,6 +30,7 @@ peer_reviewed:
     authors: <strong>Quanling Zhao*</strong>, Yanru Chen*, Runyang Tian, Sumukh Pinge, Weihong Xu, Augusto Vega, Steven Holmes, Saransh Gupta, Tajana Rosing
     conference_short: DAC
     conference: Design Automation Conference <strong>(DAC)</strong>, 2026.
+    paper: https://dl.acm.org/doi/10.1145/3770743.3804200
     arxiv: https://arxiv.org/abs/2511.18234
     code: https://github.com/QuanlingZhao/DAC-26-HDDB-Efficient-In-Storage-SQL-Database-Search-Using-Hyperdimensional-Computing-on-FeNAND
     teaser: /assets/img/teasers/hddb.jpg
@@ -39,6 +40,7 @@ peer_reviewed:
     authors: <strong>Quanling Zhao</strong>, Ava Emami, Tsuyoshi Ide, Rajiv Joshi, Steve Holmes, Michael Passow, Tajana Rosing
     conference_short: ASP-DAC
     conference: Asia and South Pacific Design Automation Conference <strong>(ASP-DAC)</strong>, 2027.
+    arxiv: https://arxiv.org/abs/2610.28949
     code: https://github.com/QuanlingZhao/ASP-DAC-27-Online-Open-World-Wafer-Defect-Discovery-using-Hyperdimensional-Computing/tree/main
     teaser: /assets/img/teasers/waferhdc.jpg
 
