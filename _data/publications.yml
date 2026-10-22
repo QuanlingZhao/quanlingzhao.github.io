@@ -23,6 +23,7 @@ peer_reviewed:
     authors: Nilesh Prasad Pandey, Jason Kong, Lanxiang Hu, <strong>Quanling Zhao</strong>, Yujie Zhao, Onat Gungor, Hao Zhang, Tajana Rosing
     conference_short: NeurIPS
     conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2026.
+    paper: https://neurips.cc/virtual/2026/loc/atlanta/poster/155404
     arxiv: https://arxiv.org/abs/2607.21604
     teaser: /assets/img/teasers/agentkvshift.jpg
 
